@@ -1,0 +1,73 @@
+$prim-font: Arial, Lucida sans-serif;
+
+@import "calculate";
+
+header {
+    text-align: center;
+    background: #F4F4F4;
+    height: 9em;
+    color: #E78244;
+    line-height: 9em;
+}
+
+
+.headline {
+    font-family: $prim-font;
+    font-size: 2.7em;
+    margin: 0;
+}
+
+#teamheadline {
+    color: #2D4452;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+main {
+    background-color: #38A18C;
+    text-align: center;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+figure {
+	width: 30%;
+	margin: 0;
+}
+
+figcaption {
+	font-family: $prim-font;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+img {
+    width: 80%;
+    height:80%;
+}
+
+input[type=button] {
+    padding:5px 15px; 
+    border:1px solid black; 
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-family: $prim-font;
+    margin: 10px;
+    color:#2D4452;
+    font-weight: bold;
+    background: linear-gradient(#e0e0e0, #d3d3d3);
+}
+
+#checkprices {
+    background-color: #F4F4F4;
+}
+
+

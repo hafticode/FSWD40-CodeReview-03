@@ -1,0 +1,109 @@
+a {
+  text-decoration: none; }
+
+#main_calculate {
+  background-color: #406A80;
+  font-family: Arial, Lucida sans-serif;
+  color: white;
+  font-size: 1.3em; }
+
+#form_calculate {
+  display: inline-grid;
+  grid-template-columns: auto 8em 8em auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 20px; }
+
+.text {
+  text-align: left; }
+
+input[type=text], [type=number] {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: Arial, Lucida sans-serif;
+  width: 9em; }
+
+input[type=submit] {
+  padding: 5px 15px;
+  border: 1px solid black;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: Arial, Lucida sans-serif;
+  margin: 10px;
+  color: #2D4452;
+  font-weight: bold;
+  background: linear-gradient(#e0e0e0, #d3d3d3);
+  width: 9em;
+  margin: 0; }
+
+#result_background {
+  background-color: #F4F4F4;
+  font-family: Arial, Lucida sans-serif;
+  font-size: 1.2em;
+  color: #406A80;
+  text-align: center;
+  line-height: 4em;
+  height: 4em; }
+
+#result {
+  margin: 0; }
+
+header {
+  text-align: center;
+  background: #F4F4F4;
+  height: 9em;
+  color: #E78244;
+  line-height: 9em; }
+
+.headline {
+  font-family: Arial, Lucida sans-serif;
+  font-size: 2.7em;
+  margin: 0; }
+
+#teamheadline {
+  color: #2D4452;
+  font-weight: bold;
+  padding: 0.5em; }
+
+main {
+  background-color: #38A18C;
+  text-align: center; }
+
+#wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-items: center; }
+
+figure {
+  width: 30%;
+  margin: 0; }
+
+figcaption {
+  font-family: Arial, Lucida sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+img {
+  width: 80%;
+  height: 80%; }
+
+input[type=button] {
+  padding: 5px 15px;
+  border: 1px solid black;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 1.5em;
+  font-family: Arial, Lucida sans-serif;
+  margin: 10px;
+  color: #2D4452;
+  font-weight: bold;
+  background: linear-gradient(#e0e0e0, #d3d3d3); }
+
+#checkprices {
+  background-color: #F4F4F4; }
+
+/*# sourceMappingURL=style.css.map */
